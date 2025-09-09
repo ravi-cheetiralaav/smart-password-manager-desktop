@@ -10,12 +10,13 @@ Transform the existing smart password manager desktop application into a modern 
    - Identify modules and components that need to be migrated or refactored for web compatibility.
 
 2. **Choose a Web Framework**
-   - Select a suitable web framework (e.g., Flask, Django for Python; React, Angular, or Vue for frontend).
-   - Decide on the architecture: monolithic or separated backend/frontend.
+   - Use React and Node as a Frontend and Backend framework
+   - Create a separated backend/frontend.
 
 3. **Design the Web UI**
-   - Create wireframes or mockups for the web interface.
+   - use Material Design as a design guide.
    - Ensure the UI is user-friendly, responsive, and visually appealing.
+
 
 4. **Implement Backend Logic**
    - Refactor core logic to run as web APIs (RESTful endpoints).
@@ -29,6 +30,7 @@ Transform the existing smart password manager desktop application into a modern 
 6. **Testing**
    - Write and run unit, integration, and end-to-end tests for both backend and frontend.
    - Perform usability and security testing.
+   - Use Playwright for the test case generation
 
 7. **Deployment**
    - Prepare the application for deployment (Docker, cloud hosting, etc.).
@@ -38,6 +40,7 @@ Transform the existing smart password manager desktop application into a modern 
 - Source code for the web application (backend and frontend).
 - Updated documentation (README.md) with setup and usage instructions.
 - Screenshots or demo video of the working web application.
+- test coverage report showing above 85% coverage 
 
 ## Bonus
 - Implement additional features such as password strength meter, password generator, or multi-factor authentication.
